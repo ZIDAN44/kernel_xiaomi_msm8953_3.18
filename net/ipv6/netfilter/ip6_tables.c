@@ -76,7 +76,6 @@ EXPORT_SYMBOL_GPL(ip6t_alloc_initial_table);
    only need to read-lock in the softirq; doing a write_lock_bh() in user
    context stops packets coming through and allows user context to read
    the counters or update the rules.
-
    Hence the start of any table is given by get_table() below.  */
 
 /* Returns whether matches rule or not. */
