@@ -1,4 +1,4 @@
-git clone https://github.com/ChalapathiRevanth/Toolchain ~/Toolchain
+git clone https://github.com/RevanthTolety/Toolchain ~/Toolchain
 export ARCH=arm64
 export CROSS_COMPILE=~/Toolchain/bin/aarch64-linux-android-
 export KBUILD_BUILD_USER=RevanthTolety
